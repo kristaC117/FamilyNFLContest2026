@@ -66,34 +66,31 @@ Visual Studio
 
 Development environment
 
-🏗️ Project Structure
+## 🏗️ Project Structure
 
+```text
 FamilyNFLContest2026/
-│
 ├── database/
 │   ├── connection.py
 │   ├── games_db.py
 │   ├── picks_db.py
 │   ├── players_db.py
 │   └── setup_db.py
-│
 ├── models/
 │   ├── game.py
 │   ├── picks.py
 │   └── player.py
-│
 ├── services/
 │   ├── picks_services.py
 │   ├── player_services.py
 │   ├── scoring_service.py
 │   └── setup_services.py
-│
 ├── UI/
 │   └── contest_UI.py
-│
 ├── main.py
 ├── .gitignore
 └── FamilyNFLContest2026.pyproj
+```
 
 Architecture and Design
 
