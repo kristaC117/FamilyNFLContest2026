@@ -3,6 +3,8 @@ from database.connection import get_connection
 from models.picks import Picks
 from services import player_services
 
+# This is my Picks Database code
+
 
 def add_picks(name, week_number, picks):
 
